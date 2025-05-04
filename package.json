@@ -1,0 +1,33 @@
+{
+  "name": "furia-chatbot",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "src/botTelegram.js",
+  "scripts": {
+    "start": "node src/botTelegram.js",
+    "debug": "node --trace-warnings src/botTelegram.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioLTLourenco/furia-chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioLTLourenco/furia-chatbot/issues"
+  },
+  "homepage": "https://github.com/SergioLTLourenco/furia-chatbot#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "twilio": "^5.5.2"
+  },
+  "description": ""
+}
